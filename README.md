@@ -2,6 +2,12 @@
 ### Description
 This project is a portfolio website which shows list of best places to visit in USA.
 
+### Languages
+HTML
+
+### Main Files
+Portfolio.html, Portfolio.css
+
 ### Steps to Run project
 1. Clone repo
 2. Open Portfolio.html file
