@@ -1,0 +1,180 @@
+     @import url(https://fonts.googleapis.com/css?family=Roboto);
+     html, 
+	 body {
+        margin: 0;
+        padding: 0;
+		overflow-x: hidden;
+	}
+	
+
+     body {
+        font-family: "Roboto", sans-serif;
+		width: 100%;
+    }
+
+	
+    .title {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+	
+	.header img {
+		 width: 100px;
+		 height: 100px;
+		 display: inline;
+	}
+
+	
+    .header h1 {
+	    position: relative;
+	    top: -100px;
+	}
+	
+	
+	.header {
+		background-color: #ffbf00;
+		height: 150px;
+	}
+	
+	
+	h1 {
+		text-align: center;
+		color: DodgerBlue;
+	}
+
+	
+	.header h3 {
+		text-align: right;
+		color: DodgerBlue;
+		position: relative;
+		top: -115px;
+		right: 10px;
+	}
+	
+	
+	h4 {
+		text-align: center;
+	}
+
+	
+	p {
+		text-align: center;
+	}
+
+	
+	img {
+		width: 100%;
+		height: 200px;
+		clear: right;
+		grid-template-columns: auto auto auto;
+		grid-gap: 10px;
+	    padding: 10px;
+		object-fit: fill;
+	}
+
+     /*
+      These are the responsive styles. Throw some breakpoints in here!
+      */
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+		background-color: lightcyan;
+		width: 100%;
+	}
+	
+
+    .gird_col {
+        width: 100%;
+	}
+	
+
+    @media screen and (max-width: 360px) {
+        .s1,
+		.s2, 
+		.s3 {
+            width: 100%;
+        }
+		
+		
+		.s4 {
+		   width: 100%;
+		}
+		
+		
+        .header h1 {
+			font-size: 12px;
+			text-align: center;
+		}
+		
+		
+		.header h3 {
+			font-size: 12px;
+			position: relative;
+		    top: -90px;
+		}
+		
+		
+		.header img {
+			width: 90px;
+	        height: 90px;
+		}
+		
+		
+		.header {
+			height: 120px;
+		}
+
+    }
+	  
+    @media (min-width: 361px) and (min-width: 768px) {
+        .s1, 
+		.s2 {
+            width: 50%;
+        }
+		
+		
+        .s3 {
+		    width: 50%;
+		}
+		
+		
+		.s4 {
+		    width: 50%;
+		}
+		
+		
+		p {
+			font-size: 16px;
+		}
+		
+		
+		h4 {
+			font-size: 18px;
+		}
+		
+		
+		h3 {
+			font-size: 20px;
+	    }
+		
+	}	  
+	  	  
+    @media screen and (min-width:1248px) {
+        .s1,
+		.s2, 
+		.s3 {
+            width: 33.33%;
+        }
+		
+		
+        .s4 {
+			width: 33.33%
+		}
+		
+		
+		p {
+			font-size: 16px;
+		}
+		
+	}	 
